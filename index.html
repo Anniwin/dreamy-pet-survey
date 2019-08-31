@@ -18,9 +18,30 @@
 <form>
 <fieldset class="fieldset">
     <legend>Personal information</legend>
+    <label for="name">Name*: </label>
+<input type="text" class="field" name="name" id="name" required placeholder="Enter your namne">
+<br>
+<label for="email">E-mail*: </label>
+<input type="email" class="field" name="email" id="email" required placeholder="Enter your email">
+<br>
+<label for="number">Age: </label>
+<input type="number" class="field" id="number"placeholder="Enter your age">
+<br>
 </fieldset>
 <fieldset class="fieldset">
     <legend>Survey questions</legend>
+  <p class="question">1. What is your dream pet?</p>
+  <select name="dream-pet" id="dream-pet">
+ <option value="">A fury snake</option>
+<option value="red">A green zebra</option>
+<option value="yellow">A pink elephant</option>
+</select>
+<br>
+<label for="colors">2. What color has he/she?</label>
+<input type="radio" name="color" value="pink"><label>Pink</label><br>
+<input type="radio" name="color" value="purple"><label>Purple</label>
+<br>
+
     </fieldset>
     <input type="submit" value="submit">
     <small class="copyright">by Anni Winnersjö</small>
